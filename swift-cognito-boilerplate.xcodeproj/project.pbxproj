@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		237D350D20C8F61100C2E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D350C20C8F61100C2E054 /* AppDelegate.swift */; };
-		237D350F20C8F61100C2E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D350E20C8F61100C2E054 /* ViewController.swift */; };
-		237D351220C8F61100C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D351020C8F61100C2E054 /* Main.storyboard */; };
 		237D351420C8F61200C2E054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237D351320C8F61200C2E054 /* Assets.xcassets */; };
 		237D351720C8F61200C2E054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D351520C8F61200C2E054 /* LaunchScreen.storyboard */; };
 		237D352220C8F61200C2E054 /* swift_cognito_boilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D352120C8F61200C2E054 /* swift_cognito_boilerplateTests.swift */; };
 		237D352D20C8F61300C2E054 /* swift_cognito_boilerplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D352C20C8F61300C2E054 /* swift_cognito_boilerplateUITests.swift */; };
+		237D354020C8F7F500C2E054 /* StartupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D353F20C8F7F500C2E054 /* StartupVC.swift */; };
+		237D354120C8F7F500C2E054 /* StartupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D353F20C8F7F500C2E054 /* StartupVC.swift */; };
+		237D354220C8F7F500C2E054 /* StartupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D353F20C8F7F500C2E054 /* StartupVC.swift */; };
+		237D354420C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
+		237D354520C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
+		237D354620C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,6 @@
 /* Begin PBXFileReference section */
 		237D350920C8F61100C2E054 /* swift-cognito-boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-cognito-boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D350C20C8F61100C2E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		237D350E20C8F61100C2E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		237D351120C8F61100C2E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		237D351320C8F61200C2E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		237D351620C8F61200C2E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237D351820C8F61200C2E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		237D352820C8F61300C2E054 /* swift-cognito-boilerplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-cognito-boilerplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D352C20C8F61300C2E054 /* swift_cognito_boilerplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_cognito_boilerplateUITests.swift; sourceTree = "<group>"; };
 		237D352E20C8F61300C2E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237D353F20C8F7F500C2E054 /* StartupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupVC.swift; sourceTree = "<group>"; };
+		237D354320C8F83A00C2E054 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,10 @@
 		237D350B20C8F61100C2E054 /* swift-cognito-boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				237D353E20C8F7E200C2E054 /* ViewControllers */,
+				237D353A20C8F73400C2E054 /* Storyboards */,
 				237D350C20C8F61100C2E054 /* AppDelegate.swift */,
-				237D350E20C8F61100C2E054 /* ViewController.swift */,
-				237D351020C8F61100C2E054 /* Main.storyboard */,
 				237D351320C8F61200C2E054 /* Assets.xcassets */,
-				237D351520C8F61200C2E054 /* LaunchScreen.storyboard */,
 				237D351820C8F61200C2E054 /* Info.plist */,
 			);
 			path = "swift-cognito-boilerplate";
@@ -123,6 +126,23 @@
 				237D352E20C8F61300C2E054 /* Info.plist */,
 			);
 			path = "swift-cognito-boilerplateUITests";
+			sourceTree = "<group>";
+		};
+		237D353A20C8F73400C2E054 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				237D351520C8F61200C2E054 /* LaunchScreen.storyboard */,
+				237D354320C8F83A00C2E054 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		237D353E20C8F7E200C2E054 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				237D353F20C8F7F500C2E054 /* StartupVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,7 @@
 			files = (
 				237D351720C8F61200C2E054 /* LaunchScreen.storyboard in Resources */,
 				237D351420C8F61200C2E054 /* Assets.xcassets in Resources */,
-				237D351220C8F61100C2E054 /* Main.storyboard in Resources */,
+				237D354420C8F83A00C2E054 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237D354520C8F83A00C2E054 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237D354620C8F83A00C2E054 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237D350F20C8F61100C2E054 /* ViewController.swift in Sources */,
+				237D354020C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D350D20C8F61100C2E054 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237D354120C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D352220C8F61200C2E054 /* swift_cognito_boilerplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237D354220C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D352D20C8F61300C2E054 /* swift_cognito_boilerplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		237D351020C8F61100C2E054 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				237D351120C8F61100C2E054 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		237D351520C8F61200C2E054 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
