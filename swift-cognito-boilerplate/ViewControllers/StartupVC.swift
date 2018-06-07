@@ -12,6 +12,11 @@ class StartupVC: UIViewController {
     // MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        print("load master data here")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.goToLoginVC()
     }
 }
