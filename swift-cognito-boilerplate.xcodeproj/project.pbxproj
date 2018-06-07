@@ -18,6 +18,9 @@
 		237D354420C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
 		237D354520C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
 		237D354620C8F83A00C2E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D354320C8F83A00C2E054 /* Main.storyboard */; };
+		237D355220C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
+		237D355320C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
+		237D355420C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		237D352E20C8F61300C2E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		237D353F20C8F7F500C2E054 /* StartupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupVC.swift; sourceTree = "<group>"; };
 		237D354320C8F83A00C2E054 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		237D350B20C8F61100C2E054 /* swift-cognito-boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				237D355020C8F97600C2E054 /* Extensions */,
 				237D353E20C8F7E200C2E054 /* ViewControllers */,
 				237D353A20C8F73400C2E054 /* Storyboards */,
 				237D350C20C8F61100C2E054 /* AppDelegate.swift */,
@@ -143,6 +148,14 @@
 				237D353F20C8F7F500C2E054 /* StartupVC.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		237D355020C8F97600C2E054 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
