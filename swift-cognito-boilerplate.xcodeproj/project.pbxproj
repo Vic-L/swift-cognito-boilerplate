@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2359A60320CA566500C66740 /* GetIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60220CA566500C66740 /* GetIdToken.swift */; };
+		2359A60420CA566500C66740 /* GetIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60220CA566500C66740 /* GetIdToken.swift */; };
+		2359A60C20CA57BC00C66740 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60B20CA57BC00C66740 /* Logout.swift */; };
+		2359A60D20CA57BC00C66740 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60B20CA57BC00C66740 /* Logout.swift */; };
 		237D350D20C8F61100C2E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D350C20C8F61100C2E054 /* AppDelegate.swift */; };
 		237D351420C8F61200C2E054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237D351320C8F61200C2E054 /* Assets.xcassets */; };
 		237D351720C8F61200C2E054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237D351520C8F61200C2E054 /* LaunchScreen.storyboard */; };
@@ -27,6 +31,18 @@
 		237D355220C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
 		237D355320C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
 		237D355420C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
+		23B7661820CA4AF500667FEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7661720CA4AF500667FEE /* Constants.swift */; };
+		23B7661920CA4AF500667FEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7661720CA4AF500667FEE /* Constants.swift */; };
+		23B7661B20CA54DB00667FEE /* GetCurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7661A20CA54DB00667FEE /* GetCurrentUser.swift */; };
+		23B7661C20CA54DB00667FEE /* GetCurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7661A20CA54DB00667FEE /* GetCurrentUser.swift */; };
+		23CAAC5E20CA3B3E00725C0B /* GetTopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAAC5D20CA3B3E00725C0B /* GetTopVC.swift */; };
+		23CAAC5F20CA3B3E00725C0B /* GetTopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAAC5D20CA3B3E00725C0B /* GetTopVC.swift */; };
+		23CAAC6120CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAAC6020CA3BCF00725C0B /* ForceChangePasswordVC.swift */; };
+		23CAAC6220CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAAC6020CA3BCF00725C0B /* ForceChangePasswordVC.swift */; };
+		23CBBBAF20CA381B0064446D /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBBAE20CA381B0064446D /* ShowAlertView.swift */; };
+		23CBBBB020CA381B0064446D /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBBAE20CA381B0064446D /* ShowAlertView.swift */; };
+		23CBBBB220CA384F0064446D /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBBB120CA384F0064446D /* UIWindowExtensions.swift */; };
+		23CBBBB320CA384F0064446D /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBBB120CA384F0064446D /* UIWindowExtensions.swift */; };
 		84C3A8EF4922EA51E10069EA /* Pods_swift_cognito_boilerplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0519652DD29115CCA8E20F /* Pods_swift_cognito_boilerplateTests.framework */; };
 		CD97D22716EB053A6BC19057 /* Pods_swift_cognito_boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DE8277D10DF1DA2D61B94C /* Pods_swift_cognito_boilerplate.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +68,8 @@
 		00221FE7781DD95313494E8A /* Pods-swift-cognito-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B0D7C15D6222F36D0AFA443 /* Pods-swift-cognito-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		1D11CF8BFC8998C4CF4533D2 /* Pods-swift-cognito-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		2359A60220CA566500C66740 /* GetIdToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIdToken.swift; sourceTree = "<group>"; };
+		2359A60B20CA57BC00C66740 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		237D350920C8F61100C2E054 /* swift-cognito-boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-cognito-boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D350C20C8F61100C2E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237D351320C8F61200C2E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +86,12 @@
 		237D354820C8F8D000C2E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentication.storyboard; sourceTree = "<group>"; };
 		237D354C20C8F8E200C2E054 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		23B7661720CA4AF500667FEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23B7661A20CA54DB00667FEE /* GetCurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentUser.swift; sourceTree = "<group>"; };
+		23CAAC5D20CA3B3E00725C0B /* GetTopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopVC.swift; sourceTree = "<group>"; };
+		23CAAC6020CA3BCF00725C0B /* ForceChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceChangePasswordVC.swift; sourceTree = "<group>"; };
+		23CBBBAE20CA381B0064446D /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
+		23CBBBB120CA384F0064446D /* UIWindowExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtensions.swift; sourceTree = "<group>"; };
 		6D0519652DD29115CCA8E20F /* Pods_swift_cognito_boilerplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_cognito_boilerplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E5229AE6990922EF25DF70 /* Pods-swift-cognito-boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		E5DE8277D10DF1DA2D61B94C /* Pods_swift_cognito_boilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_cognito_boilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +149,8 @@
 		237D350B20C8F61100C2E054 /* swift-cognito-boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				23B7661620CA4AD900667FEE /* Support */,
+				23CBBBAD20CA380C0064446D /* Services */,
 				237D355020C8F97600C2E054 /* Extensions */,
 				237D353E20C8F7E200C2E054 /* ViewControllers */,
 				237D353A20C8F73400C2E054 /* Storyboards */,
@@ -168,6 +194,7 @@
 			children = (
 				237D353F20C8F7F500C2E054 /* StartupVC.swift */,
 				237D354C20C8F8E200C2E054 /* LoginVC.swift */,
+				23CAAC6020CA3BCF00725C0B /* ForceChangePasswordVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,8 +203,29 @@
 			isa = PBXGroup;
 			children = (
 				237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */,
+				23CBBBB120CA384F0064446D /* UIWindowExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23B7661620CA4AD900667FEE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				23B7661720CA4AF500667FEE /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		23CBBBAD20CA380C0064446D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				23CBBBAE20CA381B0064446D /* ShowAlertView.swift */,
+				23CAAC5D20CA3B3E00725C0B /* GetTopVC.swift */,
+				23B7661A20CA54DB00667FEE /* GetCurrentUser.swift */,
+				2359A60220CA566500C66740 /* GetIdToken.swift */,
+				2359A60B20CA57BC00C66740 /* Logout.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		419C7A8C521B026BC44B5473 /* Pods */ = {
@@ -345,12 +393,16 @@
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -401,9 +453,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				237D355220C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */,
+				23CBBBAF20CA381B0064446D /* ShowAlertView.swift in Sources */,
 				237D354020C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D350D20C8F61100C2E054 /* AppDelegate.swift in Sources */,
+				23CAAC5E20CA3B3E00725C0B /* GetTopVC.swift in Sources */,
 				237D354D20C8F8E200C2E054 /* LoginVC.swift in Sources */,
+				23CBBBB220CA384F0064446D /* UIWindowExtensions.swift in Sources */,
+				23B7661B20CA54DB00667FEE /* GetCurrentUser.swift in Sources */,
+				2359A60320CA566500C66740 /* GetIdToken.swift in Sources */,
+				23CAAC6120CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */,
+				2359A60C20CA57BC00C66740 /* Logout.swift in Sources */,
+				23B7661820CA4AF500667FEE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +472,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				237D355320C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */,
+				23CBBBB020CA381B0064446D /* ShowAlertView.swift in Sources */,
 				237D354120C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D352220C8F61200C2E054 /* swift_cognito_boilerplateTests.swift in Sources */,
+				23CAAC5F20CA3B3E00725C0B /* GetTopVC.swift in Sources */,
 				237D354E20C8F8E200C2E054 /* LoginVC.swift in Sources */,
+				23CBBBB320CA384F0064446D /* UIWindowExtensions.swift in Sources */,
+				23B7661C20CA54DB00667FEE /* GetCurrentUser.swift in Sources */,
+				2359A60420CA566500C66740 /* GetIdToken.swift in Sources */,
+				23CAAC6220CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */,
+				2359A60D20CA57BC00C66740 /* Logout.swift in Sources */,
+				23B7661920CA4AF500667FEE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

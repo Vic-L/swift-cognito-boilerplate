@@ -7,6 +7,8 @@ target 'swift-cognito-boilerplate' do
 
   pod 'AWSCognitoIdentityProvider', '~> 2.6.6'
   pod 'AWSCore', '~> 2.6.6'
+  pod 'IQKeyboardManagerSwift', '~> 5.0.7'
+  pod 'SVProgressHUD', '~> 2.2.5'
 
   target 'swift-cognito-boilerplateTests' do
     inherit! :search_paths

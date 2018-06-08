@@ -4,22 +4,30 @@ PODS:
     - AWSCore (= 2.6.21)
   - AWSCognitoIdentityProviderASF (1.0.1)
   - AWSCore (2.6.21)
+  - IQKeyboardManagerSwift (5.0.8)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AWSCognitoIdentityProvider (~> 2.6.6)
   - AWSCore (~> 2.6.6)
+  - IQKeyboardManagerSwift (~> 5.0.7)
+  - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AWSCognitoIdentityProvider
     - AWSCognitoIdentityProviderASF
     - AWSCore
+    - IQKeyboardManagerSwift
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   AWSCognitoIdentityProvider: 1f724c5e43528580cd9f60f0a1290888793ed473
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
   AWSCore: a1ff1d32ea7af235fe64be301c204b34cb1f9f83
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 6714369b12dd36d0cfe339777f7fff5c3bb2813e
+PODFILE CHECKSUM: 23725acde3f7929ac620889cb668ea98ccb35e99
 
 COCOAPODS: 1.5.3

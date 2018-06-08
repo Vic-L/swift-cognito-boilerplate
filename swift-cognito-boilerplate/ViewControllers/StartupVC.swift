@@ -17,6 +17,26 @@ class StartupVC: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        self.goToLoginVC()
+        GetCurrentUser()?.getSession() // will trigger AppDelegate.startPasswordAuthentication()
+            .continueOnSuccessWith { (task) -> AnyObject? in
+                UserDefaults.standard.set(task.result!.idToken!.tokenString, forKey: UserDefaultsKeys.ID_TOKEN)
+                UserDefaults.standard.set(task.result!.accessToken!.tokenString, forKey: UserDefaultsKeys.ACCESS_TOKEN)
+                // TODO implement refresh token
+                //                UserDefaults.standard.set(task.result!.refreshToken!.tokenString, forKey: UserDefaultsKeys.REFRESH_TOKEN)
+                
+                let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                ShowAlertView(title: "", message: "User is now signed in. Implement what happens next", okAction: okAction)
+                
+                //** usually get masterdata at this step
+//                firstly { () -> Promise<JSON> in
+//                    CallApi here
+//                    }.done { resp in
+//                        // go to main page
+//                    }.catch { error in
+//                        ShowErrorResponseMessage(error)
+//                }
+                
+                return nil
+        }
     }
 }
