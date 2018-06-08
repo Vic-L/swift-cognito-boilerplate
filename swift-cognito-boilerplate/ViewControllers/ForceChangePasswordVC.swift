@@ -48,9 +48,6 @@ extension ForceChangePasswordVC: AWSCognitoIdentityNewPasswordRequired {
             alertController.addAction(retryAction)
             
             self.present(alertController, animated: true, completion:  nil)
-        } else {
-            let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
-            ShowAlertView(title: "", message: "User is now signed in. Implement what happens next", okAction: okAction)
         }
     }
 }
