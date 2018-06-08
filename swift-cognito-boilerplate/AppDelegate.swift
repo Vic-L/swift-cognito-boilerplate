@@ -115,6 +115,8 @@ extension AppDelegate: AWSCognitoIdentityInteractiveAuthenticationDelegate {
                 return
             }
             
+            SVProgressHUD.dismiss()
+            
             UIView.transition(with: window, duration: 0.3, options: .transitionFlipFromLeft, animations: {
                 UIApplication.shared.keyWindow?.rootViewController = self.forceChangePasswordVC
             }, completion: nil)

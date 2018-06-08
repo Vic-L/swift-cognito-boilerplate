@@ -8,6 +8,7 @@
 
 import UIKit
 import AWSCognitoIdentityProvider
+import SVProgressHUD
 
 class LoginVC: UIViewController {
     // MARK: IBOutlets
@@ -20,6 +21,7 @@ class LoginVC: UIViewController {
     
     // MARK: IBActions
     @IBAction func btnLoginClicked(_ sender: Any) {
+        SVProgressHUD.show()
         if (self.txtEmail.text != nil && self.txtPassword.text != nil) {
             let authDetails = AWSCognitoIdentityPasswordAuthenticationDetails(username: self.txtEmail.text!, password: self.txtPassword.text! )
             self.passwordAuthenticationCompletion?.set(result: authDetails)
@@ -29,6 +31,7 @@ class LoginVC: UIViewController {
                                                     preferredStyle: .alert)
             let retryAction = UIAlertAction(title: "Retry", style: .default, handler: nil)
             alertController.addAction(retryAction)
+            SVProgressHUD.dismiss()
         }
     }
 }
@@ -51,6 +54,8 @@ extension LoginVC: AWSCognitoIdentityPasswordAuthentication {
             return
         }
         
+        SVProgressHUD.dismiss()
+
         ShowAlertView(title: error.userInfo["__type"] as! String, message: error.userInfo["message"] as! String, okAction: UIAlertAction(title: "Retry", style: .default, handler: nil))
     }
 }
