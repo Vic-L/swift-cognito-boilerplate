@@ -39,14 +39,15 @@ class LoginVC: UIViewController {
 extension LoginVC: AWSCognitoIdentityPasswordAuthentication {
     func getDetails(_ authenticationInput: AWSCognitoIdentityPasswordAuthenticationInput, passwordAuthenticationCompletionSource: AWSTaskCompletionSource<AWSCognitoIdentityPasswordAuthenticationDetails>) {
         self.passwordAuthenticationCompletion = passwordAuthenticationCompletionSource
-        
-        guard let lastKnownEmail = authenticationInput.lastKnownUsername else {
-            return
-        }
-        
-        DispatchQueue.main.async {
-            self.txtEmail.text = lastKnownEmail
-        }
+
+        // TODO implement last know email
+//        guard let lastKnownEmail = authenticationInput.lastKnownUsername else {
+//            return
+//        }
+//
+//        DispatchQueue.main.async {
+//            self.txtEmail.text = lastKnownEmail
+//        }
     }
     
     func didCompleteStepWithError(_ _error: Error?) {
