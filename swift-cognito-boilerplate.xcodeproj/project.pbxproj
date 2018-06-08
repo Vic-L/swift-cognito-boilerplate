@@ -27,6 +27,8 @@
 		237D355220C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
 		237D355320C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
 		237D355420C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */; };
+		84C3A8EF4922EA51E10069EA /* Pods_swift_cognito_boilerplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0519652DD29115CCA8E20F /* Pods_swift_cognito_boilerplateTests.framework */; };
+		CD97D22716EB053A6BC19057 /* Pods_swift_cognito_boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DE8277D10DF1DA2D61B94C /* Pods_swift_cognito_boilerplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00221FE7781DD95313494E8A /* Pods-swift-cognito-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B0D7C15D6222F36D0AFA443 /* Pods-swift-cognito-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D11CF8BFC8998C4CF4533D2 /* Pods-swift-cognito-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		237D350920C8F61100C2E054 /* swift-cognito-boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-cognito-boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D350C20C8F61100C2E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		237D351320C8F61200C2E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +68,9 @@
 		237D354820C8F8D000C2E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentication.storyboard; sourceTree = "<group>"; };
 		237D354C20C8F8E200C2E054 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		237D355120C8F98900C2E054 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		6D0519652DD29115CCA8E20F /* Pods_swift_cognito_boilerplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_cognito_boilerplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E5229AE6990922EF25DF70 /* Pods-swift-cognito-boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate.release.xcconfig"; sourceTree = "<group>"; };
+		E5DE8277D10DF1DA2D61B94C /* Pods_swift_cognito_boilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_cognito_boilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD97D22716EB053A6BC19057 /* Pods_swift_cognito_boilerplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C3A8EF4922EA51E10069EA /* Pods_swift_cognito_boilerplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,8 @@
 				237D352020C8F61200C2E054 /* swift-cognito-boilerplateTests */,
 				237D352B20C8F61300C2E054 /* swift-cognito-boilerplateUITests */,
 				237D350A20C8F61100C2E054 /* Products */,
+				419C7A8C521B026BC44B5473 /* Pods */,
+				9CABF2384F4BFB7FC222ADCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +180,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		419C7A8C521B026BC44B5473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D11CF8BFC8998C4CF4533D2 /* Pods-swift-cognito-boilerplate.debug.xcconfig */,
+				A2E5229AE6990922EF25DF70 /* Pods-swift-cognito-boilerplate.release.xcconfig */,
+				00221FE7781DD95313494E8A /* Pods-swift-cognito-boilerplateTests.debug.xcconfig */,
+				1B0D7C15D6222F36D0AFA443 /* Pods-swift-cognito-boilerplateTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CABF2384F4BFB7FC222ADCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE8277D10DF1DA2D61B94C /* Pods_swift_cognito_boilerplate.framework */,
+				6D0519652DD29115CCA8E20F /* Pods_swift_cognito_boilerplateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237D353120C8F61300C2E054 /* Build configuration list for PBXNativeTarget "swift-cognito-boilerplate" */;
 			buildPhases = (
+				4D75EB8560672EA18CB3E474 /* [CP] Check Pods Manifest.lock */,
 				237D350520C8F61100C2E054 /* Sources */,
 				237D350620C8F61100C2E054 /* Frameworks */,
 				237D350720C8F61100C2E054 /* Resources */,
+				3BA76F726438ED332FE6726F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237D353420C8F61300C2E054 /* Build configuration list for PBXNativeTarget "swift-cognito-boilerplateTests" */;
 			buildPhases = (
+				6C17023A3DF647D0B028EF96 /* [CP] Check Pods Manifest.lock */,
 				237D351920C8F61200C2E054 /* Sources */,
 				237D351A20C8F61200C2E054 /* Frameworks */,
 				237D351B20C8F61200C2E054 /* Resources */,
@@ -298,6 +333,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA76F726438ED332FE6726F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D75EB8560672EA18CB3E474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-cognito-boilerplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C17023A3DF647D0B028EF96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-cognito-boilerplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		237D350520C8F61100C2E054 /* Sources */ = {
@@ -484,6 +580,7 @@
 		};
 		237D353220C8F61300C2E054 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D11CF8BFC8998C4CF4533D2 /* Pods-swift-cognito-boilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +599,7 @@
 		};
 		237D353320C8F61300C2E054 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E5229AE6990922EF25DF70 /* Pods-swift-cognito-boilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +618,7 @@
 		};
 		237D353520C8F61300C2E054 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00221FE7781DD95313494E8A /* Pods-swift-cognito-boilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +640,7 @@
 		};
 		237D353620C8F61300C2E054 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0D7C15D6222F36D0AFA443 /* Pods-swift-cognito-boilerplateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
