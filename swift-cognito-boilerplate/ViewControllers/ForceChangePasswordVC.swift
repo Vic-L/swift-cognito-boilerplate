@@ -8,6 +8,7 @@
 
 import UIKit
 import AWSCognitoIdentityProvider
+import SVProgressHUD
 
 class ForceChangePasswordVC: UIViewController {
     // MARK: IBOutlets
@@ -37,6 +38,8 @@ extension ForceChangePasswordVC: AWSCognitoIdentityNewPasswordRequired {
     }
     
     func didCompleteNewPasswordStepWithError(_ error: Error?) {
+        SVProgressHUD.dismiss()
+
         if let error = error as NSError? {
             let alertController = UIAlertController(title: error.userInfo["__type"] as? String,
                                                     message: error.userInfo["message"] as? String,
