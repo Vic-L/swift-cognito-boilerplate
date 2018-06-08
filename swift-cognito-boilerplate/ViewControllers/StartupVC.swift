@@ -24,8 +24,7 @@ class StartupVC: UIViewController {
                 // TODO implement refresh token
                 //                UserDefaults.standard.set(task.result!.refreshToken!.tokenString, forKey: UserDefaultsKeys.REFRESH_TOKEN)
                 
-                let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
-                ShowAlertView(title: "", message: "User is now signed in. Implement what happens next", okAction: okAction)
+                GetTopVC()?.goToMainVC()
                 
                 //** usually get masterdata at this step
 //                firstly { () -> Promise<JSON> in
