@@ -37,9 +37,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // create pool configuration
         let poolConfiguration = AWSCognitoIdentityUserPoolConfiguration(
-            clientId: COGNITO_IDENTITY_USER_POOL_APP_CLIENT_ID,
-            clientSecret: COGNITO_IDENTITY_USER_POOL_APP_CLIENT_SECRET,
-            poolId: COGNITO_IDENTITY_USER_POOL_ID)
+            clientId: ProcessInfo.processInfo.environment["COGNITO_IDENTITY_USER_POOL_APP_CLIENT_ID"]!,
+            clientSecret: ProcessInfo.processInfo.environment["COGNITO_IDENTITY_USER_POOL_APP_CLIENT_SECRET"]!,
+            poolId: ProcessInfo.processInfo.environment["COGNITO_IDENTITY_USER_POOL_ID"]!)
         
         AWSCognitoIdentityUserPool.register(with: serviceConfiguration, userPoolConfiguration: poolConfiguration, forKey: COGNITO_USER_POOL_SIGN_IN_PROVIDER_KEY)
         self.pool = AWSCognitoIdentityUserPool(forKey: COGNITO_USER_POOL_SIGN_IN_PROVIDER_KEY)
