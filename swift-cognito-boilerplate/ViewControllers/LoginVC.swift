@@ -34,6 +34,12 @@ class LoginVC: UIViewController {
             SVProgressHUD.dismiss()
         }
     }
+    
+    @IBAction func btnForgotPasswordClicked(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Authentication", bundle: nil)
+        let forgotPasswordVC: ForgotPasswordVC = storyboard.instantiateViewController(withIdentifier: "ForgotPasswordVC") as! ForgotPasswordVC
+        self.navigationController?.pushViewController(forgotPasswordVC, animated: true)
+    }
 }
 
 extension LoginVC: AWSCognitoIdentityPasswordAuthentication {

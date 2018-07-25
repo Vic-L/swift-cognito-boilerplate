@@ -21,6 +21,7 @@ let API_BASE_URL = "something"
 
 struct Alerts {
     static let errorHeader = "Oops!"
+    static let successHeader = "Success!"
 }
 
 struct UserDefaultsKeys {

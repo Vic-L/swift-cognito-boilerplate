@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var pool: AWSCognitoIdentityUserPool!
     var loginVC: LoginVC!
+    var loginNavVC: UINavigationController!
     var forceChangePasswordVC: ForceChangePasswordVC!
     var rememberDeviceCompletionSource: AWSTaskCompletionSource<NSNumber>?
     var credentialsProvider: AWSCognitoCredentialsProvider!
@@ -45,11 +46,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.pool.delegate = self
         
         let storyboard: UIStoryboard = UIStoryboard(name: "Authentication", bundle: nil)
-        self.loginVC = storyboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+        self.loginNavVC = storyboard.instantiateViewController(withIdentifier: "LoginNavVC") as! UINavigationController
+        self.loginVC = loginNavVC.viewControllers.first as! LoginVC
         
         self.forceChangePasswordVC = storyboard.instantiateViewController(withIdentifier: "ForceChangePasswordVC") as! ForceChangePasswordVC
 
-        
         // request notification permission
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options:[.badge, .alert, .sound]) { (granted, error) in
@@ -75,7 +76,7 @@ extension AppDelegate: AWSCognitoIdentityInteractiveAuthenticationDelegate {
             }
             
             UIView.transition(with: window, duration: 0.3, options: .transitionFlipFromLeft, animations: {
-                UIApplication.shared.keyWindow?.rootViewController = self.loginVC
+                UIApplication.shared.keyWindow?.rootViewController = self.loginNavVC
             }, completion: nil)
         }
         return self.loginVC

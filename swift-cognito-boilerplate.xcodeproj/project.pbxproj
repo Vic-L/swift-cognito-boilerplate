@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233593D82107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593D72107E7CE0028E014 /* ForgotPasswordVC.swift */; };
+		233593D92107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593D72107E7CE0028E014 /* ForgotPasswordVC.swift */; };
+		233593DA2107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593D72107E7CE0028E014 /* ForgotPasswordVC.swift */; };
+		233593DC2107E9BF0028E014 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593DB2107E9BF0028E014 /* NewPasswordVC.swift */; };
+		233593DD2107E9BF0028E014 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593DB2107E9BF0028E014 /* NewPasswordVC.swift */; };
+		233593DE2107E9BF0028E014 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233593DB2107E9BF0028E014 /* NewPasswordVC.swift */; };
 		2359A60320CA566500C66740 /* GetIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60220CA566500C66740 /* GetIdToken.swift */; };
 		2359A60420CA566500C66740 /* GetIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60220CA566500C66740 /* GetIdToken.swift */; };
 		2359A60C20CA57BC00C66740 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359A60B20CA57BC00C66740 /* Logout.swift */; };
@@ -71,6 +77,8 @@
 		00221FE7781DD95313494E8A /* Pods-swift-cognito-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B0D7C15D6222F36D0AFA443 /* Pods-swift-cognito-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplateTests/Pods-swift-cognito-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		1D11CF8BFC8998C4CF4533D2 /* Pods-swift-cognito-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-cognito-boilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-cognito-boilerplate/Pods-swift-cognito-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		233593D72107E7CE0028E014 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		233593DB2107E9BF0028E014 /* NewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
 		2359A60220CA566500C66740 /* GetIdToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIdToken.swift; sourceTree = "<group>"; };
 		2359A60B20CA57BC00C66740 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		237796F820CA61AB00CB27E6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -200,6 +208,8 @@
 				237D354C20C8F8E200C2E054 /* LoginVC.swift */,
 				23CAAC6020CA3BCF00725C0B /* ForceChangePasswordVC.swift */,
 				237796F820CA61AB00CB27E6 /* MainVC.swift */,
+				233593D72107E7CE0028E014 /* ForgotPasswordVC.swift */,
+				233593DB2107E9BF0028E014 /* NewPasswordVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -465,9 +475,11 @@
 				237D354D20C8F8E200C2E054 /* LoginVC.swift in Sources */,
 				23CBBBB220CA384F0064446D /* UIWindowExtensions.swift in Sources */,
 				23B7661B20CA54DB00667FEE /* GetCurrentUser.swift in Sources */,
+				233593D82107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */,
 				2359A60320CA566500C66740 /* GetIdToken.swift in Sources */,
 				23CAAC6120CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */,
 				2359A60C20CA57BC00C66740 /* Logout.swift in Sources */,
+				233593DC2107E9BF0028E014 /* NewPasswordVC.swift in Sources */,
 				23B7661820CA4AF500667FEE /* Constants.swift in Sources */,
 				237796F920CA61AB00CB27E6 /* MainVC.swift in Sources */,
 			);
@@ -485,9 +497,11 @@
 				237D354E20C8F8E200C2E054 /* LoginVC.swift in Sources */,
 				23CBBBB320CA384F0064446D /* UIWindowExtensions.swift in Sources */,
 				23B7661C20CA54DB00667FEE /* GetCurrentUser.swift in Sources */,
+				233593D92107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */,
 				2359A60420CA566500C66740 /* GetIdToken.swift in Sources */,
 				23CAAC6220CA3BCF00725C0B /* ForceChangePasswordVC.swift in Sources */,
 				2359A60D20CA57BC00C66740 /* Logout.swift in Sources */,
+				233593DD2107E9BF0028E014 /* NewPasswordVC.swift in Sources */,
 				23B7661920CA4AF500667FEE /* Constants.swift in Sources */,
 				237796FA20CA61AB00CB27E6 /* MainVC.swift in Sources */,
 			);
@@ -498,7 +512,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				237D355420C8F98900C2E054 /* UIViewControllerExtensions.swift in Sources */,
+				233593DE2107E9BF0028E014 /* NewPasswordVC.swift in Sources */,
 				237796FB20CA61AB00CB27E6 /* MainVC.swift in Sources */,
+				233593DA2107E7CE0028E014 /* ForgotPasswordVC.swift in Sources */,
 				237D354220C8F7F500C2E054 /* StartupVC.swift in Sources */,
 				237D352D20C8F61300C2E054 /* swift_cognito_boilerplateUITests.swift in Sources */,
 				237D354F20C8F8E200C2E054 /* LoginVC.swift in Sources */,

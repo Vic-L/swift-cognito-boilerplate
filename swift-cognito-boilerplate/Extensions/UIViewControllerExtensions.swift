@@ -18,7 +18,7 @@ extension UIViewController {
             let storyboard: UIStoryboard = UIStoryboard(name: "Authentication", bundle: nil)
             
             UIView.transition(with: window, duration: 0.35, options: .transitionFlipFromLeft, animations: {
-                UIApplication.shared.keyWindow?.rootViewController = storyboard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+                UIApplication.shared.keyWindow?.rootViewController = storyboard.instantiateViewController(withIdentifier: "LoginNavVC") as! UINavigationController
             }, completion: completion)
         }
     }
