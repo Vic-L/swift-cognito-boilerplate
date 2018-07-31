@@ -21,8 +21,8 @@ class LoginVC: UIViewController {
     
     // MARK: IBActions
     @IBAction func btnLoginClicked(_ sender: Any) {
-        SVProgressHUD.show()
         if (self.txtEmail.text != nil && self.txtPassword.text != nil) {
+            SVProgressHUD.show()
             let authDetails = AWSCognitoIdentityPasswordAuthenticationDetails(username: self.txtEmail.text!, password: self.txtPassword.text! )
             self.passwordAuthenticationCompletion?.set(result: authDetails)
         } else {
@@ -31,7 +31,6 @@ class LoginVC: UIViewController {
                                                     preferredStyle: .alert)
             let retryAction = UIAlertAction(title: "Retry", style: .default, handler: nil)
             alertController.addAction(retryAction)
-            SVProgressHUD.dismiss()
         }
     }
     
