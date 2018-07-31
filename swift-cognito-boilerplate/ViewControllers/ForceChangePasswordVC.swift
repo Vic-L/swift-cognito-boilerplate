@@ -20,6 +20,7 @@ class ForceChangePasswordVC: UIViewController {
     // MARK: IBActions
     @IBAction func btnSubmitClicked(_ sender: Any) {
         if (self.txtPassword.text != nil) {
+            SVProgressHUD.show()
             let authDetails = AWSCognitoIdentityNewPasswordRequiredDetails(proposedPassword: self.txtPassword.text!)
             self.newPasswordRequiredCompletionSource?.set(result: authDetails)
         } else {
